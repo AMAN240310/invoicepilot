@@ -1,0 +1,16 @@
+{
+  "name": "invoicepilot",
+  "version": "1.0.0",
+  "description": "InvoicePilot - Local-First AI Invoice Assistant",
+  "scripts": {
+    "server:dev": "npm --prefix server run dev",
+    "server:start": "npm --prefix server run start",
+    "server:seed": "npm --prefix server run seed",
+    "client:dev": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "test": "npm --prefix server run test"
+  },
+  "keywords": ["invoice", "ai", "ollama", "ocr", "receipts", "local-first", "finance"],
+  "author": "InvoicePilot",
+  "license": "MIT"
+}
